@@ -1,0 +1,123 @@
+/* styles/globals.css */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Sans-serif;
+    background-color: #FFFFFF;
+    color: #06141b;
+  }
+  
+  h1 {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 800;
+    color: #06141b;
+    font-size: 38px;
+    line-height: 1em;
+
+    @media (max-width: 995px) {
+        font-size: 34px; /* Ajusta el tamaño de fuente para tablet */
+        font-weight: 800;
+      }
+    
+    @media (max-width: 480px) {
+        font-size: 24px; /* Ajusta el tamaño de fuente para móvil */
+        font-weight: 800;
+      }
+
+    @media (max-width: 320px) {
+        font-size: 18px; /* Ajusta el tamaño de fuente para móvil */
+        font-weight: 800;
+      }
+  }
+
+  h2 {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+    color: #06141b;
+    font-size: 20px;
+    line-height: 1em;
+
+    @media (max-width: 995px) {
+        font-size: 16px; /* Ajusta el tamaño de fuente para tablet */
+      }
+    
+    @media (max-width: 480px) {
+        font-size: 12px; /* Ajusta el tamaño de fuente para móvil */
+      }
+
+    @media (max-width: 320px) {
+        font-size: 12px; /* Ajusta el tamaño de fuente para móvil */
+      }
+  }
+
+  h3, h4, h5, h6 {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 700;
+    color: #06141b;
+  }
+
+  p {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 300;
+    color: #06141b;
+    font-size: 18px;
+    line-height: 1.2em;
+  }
+  
+  a {
+    padding: 10px 40px 10px 40px;
+    background-color: #9ba8ab;
+    color: #06141b;
+    text-decoration: none;
+    border-color: #06141b;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  a:hover {
+    background-color: #ccd0cf;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    height: 70vh;
+
+    @media (max-width: 995px) {
+        height: 70vh;
+    }
+
+    @media (max-width: 425px) {
+        height: 90vh;
+    }
+
+    @media (max-width: 375px) {
+        height: 50vh;
+     }
+
+    @media (max-width: 320px) {
+        height: 100vh;
+    }
+  }
+  
+  .border {
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+  }
+
+  :root {
+    --e-global-color-0bee740: #FF0000; /* Define aquí el color que quieras */
+  }
+  
+  
